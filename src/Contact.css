@@ -1,0 +1,84 @@
+/* General container for the contact section */
+.contact-container {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Contact form container */
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.733);
+  }
+  
+  /* Contact form inputs and text areas */
+  .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    background-color: #4CAF50 !important;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #4CAF50 !important;
+  }
+  
+  /* Contact information on the right side */
+  .contact-info {
+    padding: 30px;
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-info {
+      padding: 20px;
+    }
+  }
+  

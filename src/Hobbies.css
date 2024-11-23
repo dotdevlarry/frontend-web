@@ -1,0 +1,70 @@
+/* General container for hobbies section */
+.hobbies-container {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* Hobby item styling */
+  .hobby-item {
+    margin-bottom: 40px;
+  }
+  
+  /* Individual hobby box */
+  .hobby {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Image inside the hobby box */
+  .hobby-image {
+    margin-bottom: 20px;
+  }
+  
+  .hobby-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Hobby title styling */
+  .hobby h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Hobby description text */
+  .hobby p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Hover effect on hobby box */
+  .hobby:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 750px) {
+    .hobby-item {
+      margin-bottom: 30px;
+    }
+    .hobby {
+      margin-bottom: 20px;
+    }
+  }
+  
